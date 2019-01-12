@@ -47,12 +47,12 @@ history = model.fit(train_images, train_labels, epochs=5)
 model.save_weights(checkpoint_path)
 
 # Plot the loss after each epoch
-# print(history)
-# plt.plot(range(len(history.history["loss"])), history.history["loss"])
-# plt.title('model loss')
-# plt.ylabel('loss')
-# plt.xlabel('epoch')
-# plt.show()
+print(history)
+plt.plot(range(len(history.history["loss"])), history.history["loss"])
+plt.title('model loss')
+plt.ylabel('loss')
+plt.xlabel('epoch')
+plt.show()
 
 test_loss, test_acc = model.evaluate(test_images, test_labels)
 
