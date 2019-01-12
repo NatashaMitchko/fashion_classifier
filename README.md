@@ -4,7 +4,7 @@ Google's TensorFlow Fashion Classifier (Tutorial)[https://www.tensorflow.org/tut
 
 This little baby model is so smart, I'm so proud of it.
 
-Look at it knowin' what ankle booties are:
+Look at it knowin' about jackets:
 
 Loss per Epoch:
 
