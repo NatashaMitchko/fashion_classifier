@@ -6,7 +6,11 @@ This little baby model is so smart, I'm so proud of it.
 
 Look at it knowin' about jackets:
 
+![Model recognizes jacket][https://github.com/NatashaMitchko/fashion_classifier/blob/master/jacket.png]
+
 Loss per Epoch:
+
+![Loss decreases over 5 epochs][https://github.com/NatashaMitchko/fashion_classifier/blob/master/loss.png]
 
 
 ```
